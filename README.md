@@ -5,7 +5,7 @@
 2. ใช้คำสั้ง npm run dev เพื่อ run โปรเจค
                                      
 ```
-3. หลังจากนั้น [คลิกที่นี่](/http://localhost:3000/GlonixTest) เพื่อเปิดหน้าเว็บ /GlonixTest บนบราวเซอร์   
+3. หลังจากนั้น [คลิกที่นี่](http://localhost:3000/GlonixTest) เพื่อเปิดหน้าเว็บ /GlonixTest บนบราวเซอร์   
 ```bash
 1.dependencies ที่ใช้
 2.@ckeditor/ckeditor5-react
