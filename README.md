@@ -7,11 +7,11 @@
 
 dependencies ที่ใช้
 ```bash
-@ckeditor/ckeditor5-react
-@heroui/react
-4@fortawesome/fontawesome-free
-tailwindcss
-daisyui
-swiper
+1. @ckeditor/ckeditor5-react
+2. @heroui/react
+3. @fortawesome/fontawesome-free
+4. tailwindcss
+5. daisyui
+6. swiper
 ```
 
