@@ -3,7 +3,7 @@
 ```bash
 1. ใช้คำสั้ง npm i เพื่อติดตั้ง Library package ของ โปรเจค
 2. ใช้คำสั้ง npm run dev เพื่อ run โปรเจค
-3. คลิกที่ลิ้ง http://localhost:3000](http://localhost:3000/GlonixTest เพื่อเปิดหน้าเว็บบนบราวเซอร์                                        
+3. คลิกที่ลิ้ง [http://localhost:3000/GlonixTest) เพื่อเปิดหน้าเว็บบนบราวเซอร์                                        
 ```
 
 ```bash
@@ -16,6 +16,3 @@
 7. swiper
 ```
 
-
-
-Open [) with your browser to see the result.
