@@ -1,21 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* @import "quill/dist/quill.core.css"; */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --ck-border-radius: 7px;
 }
-
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.ck-editor__editable_inline {
+  min-height: 170px;
+}
+.bottomCardRadias {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+.foottercustom {
+  margin-left: 24rem;
+  margin-right: 23rem;
+}
+/* img {
+  fill: url('../../public/Course_img_fill1.png');
+} */
+.fillimg {
+  /* fill: url('../../public/image.png'); */
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 0%;
+  /* opacity: 70%; */
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
   }
 }
-
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth
+  /* font-family: "Prompt", serif; */
+  /* font-weight: 100; */
+  /* font-style: normal; */
+  /* background: var(--foreground); */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+
+}
+ .searchButton {
+  border-radius: 10px;
+    background-color: #A8AD00;
+    color: white;
+    right: 0%;
+    position: absolute;
+ }
+/* .navbarcontainner { 
+width: 1274px;
+height: 66px;
+top: 38px;
+left: 324px;
+opacity: 0px;
+} */
+
+.controls {
+  display: flex;
+  border: 1px solid #ccc;
+  border-top: 0;
+  padding: 10px;
+}
+
+.controls-right {
+  margin-left: auto;
+}
+
+.state {
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+.state-title {
+  color: #999;
+  text-transform: uppercase;
+}
+
+.ViewAllButton {
+  @apply right-[297px]
 }
